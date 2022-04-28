@@ -1,0 +1,19 @@
+package com.desgin.study_03_decorator.class03;
+
+/**
+ * @author test_jia
+ * ClassName Suit
+ * PackageName com.desgin.study_03_decorator.class02
+ * Description
+ * <p>
+ * Date: 2022/4/29
+ * Time: 上午1:05
+ */
+public class Suit extends Decorator {
+
+    public void show() {
+        System.out.print("穿西装 ");
+        if (base != null)
+            base.show();
+    }
+}

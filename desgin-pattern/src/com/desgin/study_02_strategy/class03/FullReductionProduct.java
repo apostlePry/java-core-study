@@ -10,8 +10,8 @@ package com.desgin.study_02_strategy.class03;
  * Time: 上午12:18
  */
 public class FullReductionProduct extends Calculate {
-    private int fullReductionPrice;
-    private int reductionPrice;
+    private final int fullReductionPrice;
+    private final int reductionPrice;
 
     public FullReductionProduct(){
         this(300, 100);

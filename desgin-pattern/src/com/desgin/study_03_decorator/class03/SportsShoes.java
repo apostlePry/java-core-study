@@ -1,0 +1,19 @@
+package com.desgin.study_03_decorator.class03;
+
+/**
+ * @author test_jia
+ * ClassName SportsShoes
+ * PackageName com.desgin.study_03_decorator.class02
+ * Description
+ * <p>
+ * Date: 2022/4/29
+ * Time: 上午1:05
+ */
+public class SportsShoes extends Decorator {
+
+    public void show() {
+        System.out.print("穿运动鞋 ");
+        if (base != null)
+            base.show();
+    }
+}
